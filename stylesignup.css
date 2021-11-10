@@ -1,0 +1,43 @@
+*{
+    padding: 0;bottom: 0;
+}
+body{
+    background-color: #aaaaaa;
+}
+.box{
+    margin: 10vh 30vw;;
+    background-color: #000000;
+    color:#ffff;
+    height: 400px;
+    width: 190px;
+    padding: 100px;
+}
+input{
+    padding: 12px 10px;
+    margin: 0px 10px 10px 0px;
+}
+button {
+    background-color: #0b5394;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10vw;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  #reg{
+      font-size: 14px;
+      padding: 10px;
+      cursor: pointer;
+  }
+  #reg:hover{
+      color: #6ae2fc;
+  }
+  a{
+      text-decoration: none;
+  }
