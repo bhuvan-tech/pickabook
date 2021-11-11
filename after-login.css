@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    display: flex;
+    height: 8vh;
+    width:100%;
+}
+
+.glow{
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 25px;
+    padding-top: 15px ;
+    font-family: 'Playfair Display', serif;
+}
+
+div ul{
+    display: none;
+}
+
+.glow {
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+#gre{
+    background-color: rgb(21, 255, 0);
+    padding:10px;
+    margin-top:30px;
+}
+nav{
+    background-color:#63a4ff;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 84%);
+    display: flex;
+    justify-content:space-between ;
+}
+
+.forgreen{
+    text-align: center;
+    padding:30px;
+}
+#para{
+    text-align: center;
+    padding:30px;
+}
+
+section.five{
+    background-color: #ececec;
+    height:auto;
+}
+section.five div.flex6e{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 20%;
+}
+
+section.five div.flex6e .ele{
+    width: 350px;
+    height:500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #fff;
+    padding:20px;
+    margin:10px;
+}
+
+#one{
+    background-image: url('img/rdpd.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+
+#two{
+    background-image: url('img/a-h.png');
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+
+#three{
+    background-image: url('img/kmb.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+
+#four{
+    background-image: url('img/twm.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+
+#five{
+    background-image: url('img/a-f.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+
+#six{
+    background-image: url('img/hp.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: stretch;
+    background-size: cover;
+}
+#emg{
+    width: 20px;
+    height: 20px;
+}
+
+.ele{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-style: bold;
+}
+section.five div.flex6e .ele p{
+    width:70%;
+}
+
+section.five div.flex6e .ele a{
+    text-decoration: none;
+    font-size: 1.05em;
+    font-weight: 700;
+}
