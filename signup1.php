@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
-    <div class="glow">Pick-A-Book</div>
+    <nav>
+        <div class="glow">Pick-A-Book</div>
     </nav>
     <div class="box">
     Sign Up
