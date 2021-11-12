@@ -14,7 +14,7 @@
             Email<br><input name="email" type="email" placeholder="Enter the Email"><br>
             Password<br><input name="password" type="password" placeholder="Enter the Password"><br>
             <input type="submit" class="submit-btn" name="Submit"><br>
-            <div id="reg"> User! Click Here To Sign Up <a href="#"></a> </div>
+            <div id="reg"> User! Click Here To Sign Up <a href="signup.php"></a> </div>
         </form>
     </div>
 </body>

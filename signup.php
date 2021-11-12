@@ -18,7 +18,7 @@
         Password <input name="password" type="password" placeholder="Enter the Password">
         <input type="submit" class="submit-btn" name="Submit"><br>
         <div id="reg">
-            <a href="#">Already a user!</a>
+            <a href="signin.php">Already a user!</a>
         </div>
     </form></div>
     

@@ -3,10 +3,10 @@
     exit;
 ?>
 <?php 
-    $db_hostname="127.0.0.1";
-    $db_username="root";
-    $db_password="";
-    $db_name="hack";
+    $db_hostname="sql213.epizy.com";
+    $db_username="epiz_30335074";
+    $db_password="MQRpttWuRh";
+    $db_name="epiz_30335074_pickabook";
 
     $conn=mysqli_connect($db_hostname,$db_username,$db_password,$db_name);
     if(!$conn){
