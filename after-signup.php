@@ -1,7 +1,4 @@
-<?php
-    header("Location: signin.php"); 
-    exit;
-?>
+
 <?php 
 
     $db_hostname="127.0.0.1";
@@ -29,6 +26,11 @@
         echo "Error: " .mysqli_error($conn);
         exit;
     }
+    else{
+        header("Location: signin.php"); 
+        exit;
+    }
 
     mysqli_close($conn);
 ?>
+

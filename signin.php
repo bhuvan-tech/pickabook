@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign-in</title>
     <link rel="stylesheet" href="stylesignin.css">
+    <link rel="stylesheet" href="stylesignup.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <div class="glow">Pick-A-Book</div>
+    </nav>
     <div class="box">
         SIGN IN
         <form action="after-signin.php" method="POST">

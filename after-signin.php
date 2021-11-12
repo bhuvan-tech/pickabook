@@ -1,7 +1,4 @@
-<?php
-    header("Location: index.html"); 
-    exit;
-?>
+
 <?php 
     $db_hostname="127.0.0.1";
     $db_username="root";
@@ -28,15 +25,11 @@
 
     while($row=mysqli_fetch_assoc($result)){
         if($row){
-            echo "hello " . $row['name'] ."<br>";
-            // setcookie("id",$row['id'], time()+3600);
-            // setcookie("email",$row['email'],time()+3600);
+            header("Location: after-login.html"); 
+            exit;
         }
         else
             echo "login failure<br>";
-         ?>
-         <a href="after-login.html">click me</a>
-         <?php 
         
     }
 
