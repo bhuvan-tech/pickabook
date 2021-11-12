@@ -1,3 +1,4 @@
+
 *{
     font-family:'Roboto', sans-serif;
     margin: 0px;
@@ -14,14 +15,25 @@ nav{
     width:100%;
 }
 
-.icon{
-    /* border: black 1px solid; */
+.glow{
     width: 120px;
     padding-left: 25px;
-    padding-top: 15px ;
+    padding-top: 20px ;
     font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
 }
-
+ @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
 div ul li{
     list-style: none;
     padding-right: 20px;
@@ -45,34 +57,66 @@ ul{
     color: #194F92;
 }
 nav{
-    background-color:#CBD5F0;
+    background-color:#63a4ff;
     display: flex;
     justify-content:space-between ;
+    background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
 }
 .main{
-    /* border : 2px solid black; */
     height:400px;
     display: flex;
     margin: 40px;
+    
+    /* border-radius: 5px; */
+    /* border : 2px solid black;  */
 }
 .main1{
-    border : 2px solid black;
+    /* border : 2px solid black;  */
     height:100%;
     width: 70%;
-
+    background-color: rgb(153, 175, 204);
+    border-radius: 5px;
 }
 .main2{
-    border : 2px solid black;
+    /* border : 2px solid black; */
     height:100%;
     width: 30%;
+    border-radius: 3px;
 }
 .eth{
     height: 100%;
     width: 100%;
+    border-radius: 3px;
+}
+h2{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: xx-large;
+    text-decoration: none;
+}
+.para2{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+    text-decoration: none;
 }
 footer{
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     text-align: center;
     bottom: -50px;
+    height: 50px;
+    line-height: 20px;
+    display: block;
+    bottom: -58px;
+}
+a{
+    text-decoration: none;
+}
+.footer1{
+    padding-top: 2px;
+    height: fit-content;
+}
+span{
+    padding-top: 3px;
 }
