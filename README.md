@@ -1,5 +1,4 @@
-# reva-hackathon-2021
-REVA HACKATHON 2021
+# OPEN SOURCE PROJECT
 
 https://bhuvan-tech.github.io/pickabook/ is a Dcentralized Web App which is used for Book Lending and Buying using Crypto Currency REVACoin(RUC).
 
