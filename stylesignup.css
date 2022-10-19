@@ -1,11 +1,13 @@
-*{
+* {
     padding: 0;bottom: 0;
 }
-body{
+
+body {
     background-image: url("signupimage.jpg");
     background-size: cover;
 }
-.box{
+
+.box {
     margin: 10vh 30vw;;
     background-color: #f8f8ff;
     color: #0d2129;
@@ -13,7 +15,8 @@ body{
     width: 190px;
     padding: 100px;
 }
-input{
+
+input {
     padding: 12px 10px;
     margin: 0px 10px 10px 0px;
 }
@@ -31,14 +34,14 @@ button {
     opacity: 0.8;
   }
 
-  #reg{
+  #reg {
       font-size: 14px;
       padding: 10px;
       cursor: pointer;
   }
-  #reg:hover{
+  #reg:hover {
       color: #6ae2fc;
   }
-  a{
+  a {
       text-decoration: none;
   }
