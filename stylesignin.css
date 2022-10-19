@@ -1,13 +1,13 @@
-*{
+* {
     padding: 0;bottom: 0;
 }
-body{
+body {
     background-image: url("backgroundsign.jpg");
     background-attachment: fixed;
     background-size: cover;
     /* background: linear-gradient(90deg, #63a4ff 0%, #83eaf1 74%);*/
 } 
-.box{
+.box {
     margin: 20vh 42vw;;
     background-color: #f8f8ff;
     color: #0d2129;
@@ -18,7 +18,7 @@ body{
     border-radius: 3px;
     box-shadow: 2px 10px 8px #888888;
 }
-input{
+input {
     padding: 10PX 10PX;
     margin: 16px 10px 10px 0px;
 }
@@ -36,17 +36,17 @@ button {
     opacity: 0.8;
   }
 
-  #reg{
+  #reg {
       padding: 10px;
       cursor: pointer;
   }
   
-  a{
+  a {
       text-decoration: none;
   }
-  a :hover{
+  a:hover {
     color: #6ae2fc;
   }
-  footer{
+  footer {
       background: #fff;
   }
